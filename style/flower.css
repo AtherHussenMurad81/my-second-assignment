@@ -1,37 +1,48 @@
-/* inter font */
-
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 /* navbar section */
-.nav-items{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: auto 150px;
-
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto 150px;
 }
-.nav-items img{
-    height: 135px;
-    width: 82px;
+.nav-items img {
+  height: 135px;
+  width: 82px;
 }
-.nav-item{
-    display: flex;
-   align-items: center;
-   gap: 49px;
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 49px;
 }
 .nav-bar {
-   list-style: none;
-   display: flex;
-   gap: 48px;
+  list-style: none;
+  display: flex;
+  gap: 48px;
 }
-.nav-bar a{
-    text-decoration: none;
-    color: black;
+.nav-bar a {
+  text-decoration: none;
+  color: black;
 }
-.nav-bar li:first-child{
-    font-size:16px;
-    font-weight: 700;
+.nav-bar li:first-child {
+  font-size: 16px;
+  font-weight: 700;
+}
+/* banner items */
+
+.banner-title span {
+  color: #e95a08;
+}
+.banner-description {
+  color: #000000;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 150px;
 }
